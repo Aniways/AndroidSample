@@ -21,7 +21,7 @@
 
     <application android:allowBackup="true" >
         <activity
-            android:name=".AniwaysCreditsStoreActivity"
+            android:name="com.aniways.billing.AniwaysCreditsStoreActivity"
             android:launchMode="singleTop"
             android:theme="@style/Theme.Aniways.Transparent" />
 
