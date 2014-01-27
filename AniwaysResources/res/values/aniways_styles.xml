@@ -1,0 +1,55 @@
+<resources>
+	  
+    <style name="Theme.Aniways.Transparent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/aniways_transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="AniwaysAnimations" />
+
+    <!-- PopDownMenu -->
+    <style name="AniwaysAnimations.PopDownMenu" />
+
+    <style name="AniwaysAnimations.PopDownMenu.Left" parent="AniwaysAnimations.PopDownMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_bottomright_to_topleft</item>
+    </style>
+
+    <style name="AniwaysAnimations.PopDownMenu.Right" parent="AniwaysAnimations.PopDownMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_bottomleft_to_topright</item>
+    </style>
+
+    <style name="AniwaysAnimations.PopDownMenu.Center" parent="AniwaysAnimations.PopDownMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_bottom</item>
+    </style>
+
+    <!-- PopUpMenu -->
+    <style name="AniwaysAnimations.PopUpMenu" />
+
+    <style name="AniwaysAnimations.PopUpMenu.Left" parent="AniwaysAnimations.PopUpMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_topright_to_bottomleft</item>
+    </style>
+
+    <style name="AniwaysAnimations.PopUpMenu.Right" parent="AniwaysAnimations.PopUpMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_topleft_to_bottomright</item>
+    </style>
+
+    <style name="AniwaysAnimations.PopUpMenu.Center" parent="AniwaysAnimations.PopUpMenu">
+        <item name="@android:windowEnterAnimation">@anim/aniways_grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/aniways_shrink_from_top</item>
+    </style>
+    
+    <style name="Theme.Aniways.PageIndicatorDefaults" parent="android:Theme">
+        <item name="aniways_vpiIconPageIndicatorStyle">@style/Aniways.Widget.IconPageIndicator</item>
+        <item name="aniways_vpiTabPageIndicatorStyle">@style/Aniways.Widget.TabPageIndicator</item>
+    </style>
+
+</resources>

@@ -1,0 +1,89 @@
+<resources>
+	
+     <style name="Aniways.StyledIndicators" parent="@android:style/Theme.Light">
+        <item name="aniways_vpiCirclePageIndicatorStyle">@style/Aniways.CustomCirclePageIndicator</item>
+        <item name="aniways_vpiLinePageIndicatorStyle">@style/Aniways.CustomLinePageIndicator</item>
+        <item name="aniways_vpiTitlePageIndicatorStyle">@style/Aniways.CustomTitlePageIndicator</item>
+        <item name="aniways_vpiTabPageIndicatorStyle">@style/Aniways.CustomTabPageIndicator</item>
+        <item name="aniways_vpiUnderlinePageIndicatorStyle">@style/Aniways.CustomUnderlinePageIndicator</item>
+    </style>
+    
+     <style name="Aniways" />
+     
+     <style name="Aniways.CustomTitlePageIndicator" parent="Aniways">
+        <item name="android:background">#18FF0000</item>
+        <item name="footerColor">#FFAA2222</item>
+        <item name="footerLineHeight">1dp</item>
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="android:textColor">#AA000000</item>
+        <item name="aniways_vpi_selectedColor">#FF000000</item>
+        <item name="selectedBold">true</item>
+    </style>
+
+    <style name="Aniways.CustomLinePageIndicator" parent="Aniways">
+        <item name="aniways_vpi_strokeWidth">4dp</item>
+        <item name="lineWidth">30dp</item>
+        <item name="aniways_vpi_unselectedColor">#FF888888</item>
+        <item name="aniways_vpi_selectedColor">#FF880000</item>
+    </style>
+
+    <style name="Aniways.CustomCirclePageIndicator" parent="Aniways">
+        <item name="fillColor">#FF888888</item>
+        <item name="strokeColor">#FF000000</item>
+        <item name="aniways_vpi_strokeWidth">2dp</item>
+        <item name="radius">10dp</item>
+        <item name="aniways_vpi_centered">true</item>
+    </style>
+
+    <style name="Aniways.CustomTabPageIndicator" parent="Aniways.Widget.TabPageIndicator">
+        <item name="android:background">@drawable/aniways_vpi_custom_tab_indicator</item>
+        <item name="android:textAppearance">@style/Aniways.CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">#FF555555</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:divider">@drawable/aniways_vpi_custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="Aniways.CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Aniways.CustomUnderlinePageIndicator" parent="Aniways">
+        <item name="aniways_vpi_selectedColor">#FFCC0000</item>
+        <item name="android:background">#FFCCCCCC</item>
+        <item name="fadeLength">1000</item>
+        <item name="fadeDelay">1000</item>
+    </style>
+
+    <style name="Aniways.Widget">
+    </style>
+
+    <style name="Aniways.Widget.TabPageIndicator" parent="Aniways.Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/aniways_vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textAppearance">@style/Aniways.Widget.TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="Aniways.Widget.TextAppearance.TabPageIndicator" parent="Aniways.Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/aniways_vpi__dark_theme</item>
+    </style>
+
+    <style name="Aniways.Widget.IconPageIndicator" parent="Aniways.Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+
+</resources>

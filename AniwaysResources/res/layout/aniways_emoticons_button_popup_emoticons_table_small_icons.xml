@@ -1,0 +1,165 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingRight="8dp"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="5dp" >
+
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" >
+
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="5dp" >
+
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+        
+        <include
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
+
+    </TableRow>
+
+</TableLayout>

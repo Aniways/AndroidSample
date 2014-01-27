@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.aniways.AniwaysTutorialView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tutorial_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C0000000"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/aniways_tutorial_close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/aniways_tutorial_x" />
+
+    <ImageView
+        android:id="@+id/aniways_tutorial_instructions_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+</com.aniways.AniwaysTutorialView>
