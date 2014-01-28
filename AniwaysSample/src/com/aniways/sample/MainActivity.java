@@ -22,7 +22,8 @@ public class MainActivity extends Activity {
 		// do have to do it in the onCreate() of every entry point activity and in onCreate() of services
 		// that use the Aniways API
 		Aniways.init(this);
-
+		
+		// The content view is set up after the Aniways init because the view contains Aniways elements
 		setContentView(R.layout.activity_main);
 
 		// Setup the 'send' button
@@ -34,13 +35,13 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				//Html.fromHtml(mEditText.getText());
 				String message = Aniways.encodeMessage(textEditor.getText());
 				textView.setText(message);
 				textEditor.setText("");	
 			}
 
 		});
+		
 	}
 
 
