@@ -15,7 +15,7 @@
         android:padding="4dip"
         app:snap="false" />
 
-    <android.support.v4.view.AniwaysDirectionalViewPager
+    <android.support.v4.view.AniwaysVerticalViewPager
         android:id="@+id/aniways_ebp_icon_families_pager"
         android:layout_width="0dp"
         android:layout_height="match_parent"
