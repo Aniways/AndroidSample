@@ -12,27 +12,27 @@
      
      <style name="Aniways.CustomTitlePageIndicator" parent="Aniways">
         <item name="android:background">#18FF0000</item>
-        <item name="footerColor">#FFAA2222</item>
-        <item name="footerLineHeight">1dp</item>
-        <item name="footerIndicatorHeight">3dp</item>
-        <item name="footerIndicatorStyle">underline</item>
+        <item name="aniways_vpi_footerColor">#FFAA2222</item>
+        <item name="aniways_vpi_footerLineHeight">1dp</item>
+        <item name="aniways_vpi_footerIndicatorHeight">3dp</item>
+        <item name="aniways_vpi_footerIndicatorStyle">underline</item>
         <item name="android:textColor">#AA000000</item>
         <item name="aniways_vpi_selectedColor">#FF000000</item>
-        <item name="selectedBold">true</item>
+        <item name="aniways_vpi_selectedBold">true</item>
     </style>
 
     <style name="Aniways.CustomLinePageIndicator" parent="Aniways">
         <item name="aniways_vpi_strokeWidth">4dp</item>
-        <item name="lineWidth">30dp</item>
+        <item name="aniways_vpi_lineWidth">30dp</item>
         <item name="aniways_vpi_unselectedColor">#FF888888</item>
         <item name="aniways_vpi_selectedColor">#FF880000</item>
     </style>
 
     <style name="Aniways.CustomCirclePageIndicator" parent="Aniways">
-        <item name="fillColor">#FF888888</item>
-        <item name="strokeColor">#FF000000</item>
+        <item name="aniways_vpi_fillColor">#FF888888</item>
+        <item name="aniways_vpi_strokeColor">#FF000000</item>
         <item name="aniways_vpi_strokeWidth">2dp</item>
-        <item name="radius">10dp</item>
+        <item name="aniways_vpi_radius">10dp</item>
         <item name="aniways_vpi_centered">true</item>
     </style>
 
@@ -57,8 +57,8 @@
     <style name="Aniways.CustomUnderlinePageIndicator" parent="Aniways">
         <item name="aniways_vpi_selectedColor">#FFCC0000</item>
         <item name="android:background">#FFCCCCCC</item>
-        <item name="fadeLength">1000</item>
-        <item name="fadeDelay">1000</item>
+        <item name="aniways_vpi_fadeLength">1000</item>
+        <item name="aniways_vpi_fadeDelay">1000</item>
     </style>
 
     <style name="Aniways.Widget">

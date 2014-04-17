@@ -13,7 +13,7 @@
         android:layout_height="fill_parent"
         android:layout_gravity="center"
         android:padding="4dip"
-        app:snap="false" />
+        app:aniways_vpi_snap="false" />
 
     <aniways.android.support.v4.view.AniwaysVerticalViewPager
         android:id="@+id/aniways_ebp_icon_families_pager"
