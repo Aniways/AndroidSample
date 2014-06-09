@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.aniways.blur.ContextualBubbleFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/aniways_contextual_popup_frame_layout"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical" >
+    android:layout_height="wrap_content" >
 
-    <ImageView
-        android:id="@+id/aniways_quickaction_arrow_up"
+    <com.aniways.blur.ContextualBubbleView
+        android:id="@+id/aniways_contextual_popup_blured_linear_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="-11dp"
-        android:contentDescription="Up arrow"
-        android:src="@drawable/aniways_suggestionarrowup" />
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        app:aniways_blur_radius="12"
+        app:aniways_contextual_bubble_color="@color/aniways_contextual_popup_background_color"
+        app:aniways_contextual_bubble_cornerRadius="12dp"
+        app:aniways_contextual_bubble_outlineColor="@color/aniways_contextual_popup_border_color"
+        app:aniways_contextual_bubble_outlineWidth="0.5dp"
+        app:aniways_contextual_bubble_pointerHeight="15dp"
+        app:aniways_contextual_bubble_pointerWidth="15dp" >
 
-    <FrameLayout
-        android:id="@+id/aniways_quickaction_popup_frame"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-
-        <LinearLayout
+        <HorizontalScrollView
+            style="horizontalScrollViewStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/aniways_suggestionpopupbg_poweredby07"
-            android:orientation="vertical" >
+            android:layout_gravity="center"
+            android:fadingEdgeLength="0dip"
+            android:scrollbars="none" >
 
-            <HorizontalScrollView
-                android:id="@+id/aniways_quickaction_scroll"
-                style="horizontalScrollViewStyle"
+            <LinearLayout
+                android:id="@+id/aniways_quickaction_tracks"
                 android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:fadingEdgeLength="0dip"
-                android:scrollbars="none" >
-
-                <LinearLayout
-                    android:id="@+id/aniways_quickaction_tracks"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:orientation="horizontal" >
-                </LinearLayout>
-            </HorizontalScrollView>
-        </LinearLayout>
-
-        <Button
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+    </com.aniways.blur.ContextualBubbleView>
+    
+    <TextView
             android:id="@+id/aniways_quickaction_credits_balance"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|right"
-            android:layout_marginRight="6dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="1dp"
             android:background="@drawable/aniways_popup_coins_balance"
             android:ellipsize="end"
             android:lines="1"
-            android:minHeight="1dp"
-            android:minWidth="1dp"
             android:text="10"
             android:textColor="@color/aniways_White"
             android:textSize="10sp"
+            android:clickable="true"
             android:textStyle="bold" />
+    
+    <TextView
+            android:id="@+id/aniways_quickaction_powered_by"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="1dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="@color/aniways_Black"
+            android:textSize="8sp"
+            android:text="&#169; Powered by Aniways"
+             />
 
-    </FrameLayout>
-
-    <ImageView
-        android:id="@+id/aniways_quickaction_arrow_down"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="-12dip"
-        android:contentDescription="Down arrow"
-        android:src="@drawable/aniways_suggestionarrowdown" />
-
-</LinearLayout>
+</com.aniways.blur.ContextualBubbleFrameLayout>

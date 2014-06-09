@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AniwaysContextualBubbleView">
+        <attr name="aniways_contextual_bubble_cornerRadius" format="dimension"/>
+        <attr name="aniways_contextual_bubble_pointerHeight" format="dimension"/>
+        <attr name="aniways_contextual_bubble_pointerWidth" format="dimension"/>
+        <attr name="aniways_contextual_bubble_color" format="color" />
+        <attr name="aniways_contextual_bubble_outlineColor" format="color" />
+        <attr name="aniways_contextual_bubble_outlineWidth" format="dimension" />
+        <attr name="aniways_contextual_bubble_shadowRadius" format="dimension" />
+        <attr name="aniways_contextual_bubble_shadowOffsetX" format="dimension" />
+        <attr name="aniways_contextual_bubble_shadowOffsetY" format="dimension" />
+        <attr name="aniways_contextual_bubble_shadowColor" format="color" />
+        <attr name="aniways_contextual_bubble_gradientTopColor" format="color" />
+        <attr name="aniways_contextual_bubble_gradientBottomColor" format="color" />
+    </declare-styleable>
+</resources>

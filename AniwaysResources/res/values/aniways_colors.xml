@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="aniways_contextual_popup_border_color">#000000</color>
+    <color name="aniways_contextual_popup_background_color">#66000000</color>
 	<color name="aniways_pressed_example">#CC33B5E5</color>
     <color name="aniways_transparent">#00000000</color>
     <color name="aniways_White">#FFFFFF</color>
@@ -97,6 +99,7 @@
     <color name="aniways_SkyBlue">#87CEEB</color>
     <color name="aniways_Gray">#808080</color>
     <color name="aniways_LightGray">#9C9C9C</color>
+    <!-- <color name="aniways_LightGray">#5B5B5B</color> -->
     <color name="aniways_Shai">#AC6B2A</color>
     <color name="aniways_Shai2">#C2843C</color>
     <color name="aniways_Shai3">#B57631</color>
