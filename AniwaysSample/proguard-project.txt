@@ -18,3 +18,31 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+
+##---------------Begin: proguard configuration for Aniways ----------
+# Gson uses generic type information stored in a class file when working with
+#fields. Proguard removes such information by default, so configure it to keep
+#all of it.
+-keepattributes Signature
+
+ 
+# For using GSON @Expose annotation
+-keepattributes *Annotation*
+
+
+# Gson specific classes
+-keep class sun.misc.Unsafe { *; }
+#-keep class com.google.gson.stream.** { *; }
+
+ 
+# Application classes that will be serialized/deserialized over Gson
+-keep class com.aniways.data.KeywordsFile** { *; }
+-keep class com.aniways.data.AniwaysPrivateConfig** { *; }
+-keep class android.support.v8.renderscript.** { *; }
+-keep class aniways.android.support.v4.** { *; }
+#-keep class com.aniways.service.AniwaysIntentService.** { *; }
+#-keep class com.aniways.analytics.service.AniwaysAnalyticsService.** { *; }
+#-keep class com.aniways.service.AlarmReceiver.** { *; }
+-keep class com.aniways.** { *; }
+##---------------End: proguard configuration for Aniways ----------
