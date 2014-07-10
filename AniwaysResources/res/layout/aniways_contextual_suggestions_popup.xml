@@ -68,6 +68,7 @@
             android:textColor="@color/aniways_Black"
             android:textSize="8sp"
             android:text="&#169; Powered by Aniways"
+            android:visibility="gone"
              />
 
 </com.aniways.blur.ContextualBubbleFrameLayout>

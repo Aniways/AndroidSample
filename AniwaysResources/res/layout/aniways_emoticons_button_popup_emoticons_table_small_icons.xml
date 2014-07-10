@@ -19,42 +19,42 @@
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
 
     </TableRow>
@@ -71,42 +71,42 @@
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
 
     </TableRow>
@@ -122,42 +122,42 @@
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginRight="10dp"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
         
         <include
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             layout="@layout/aniways_emoticons_button_popup_emoticon_item" />
 
     </TableRow>

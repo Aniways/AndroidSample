@@ -1,44 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+	android:paddingRight="5dp"
+	android:paddingLeft="5dp"
     android:background="@color/aniways_transparent"
     android:clickable="true"
-    android:gravity="center_vertical|center_horizontal"
-    android:orientation="vertical"
-    android:paddingBottom="0dip"
-    android:paddingTop="0dip" >
+    android:gravity="center_vertical|center_horizontal" >
 
-    <FrameLayout
+    <!-- The width and height values are not really respected. The value is taken from the configured iconInSuggestionPopupSize -->
+    <ImageView
+        android:id="@+id/aniways_action_item_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp" >
+        android:scaleType="fitCenter" />
 
-        <ImageView
-            android:id="@+id/aniways_action_item_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:scaleType="centerInside" />
-
-        <ImageView
-            android:id="@+id/aniways_ebp_emoticons_item_locked_icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:src="@drawable/aniways_locked_icon" />
-    </FrameLayout>
-
-    <TextView
-        android:id="@+id/aniways_action_item_title"
+    <ImageView
+        android:id="@+id/aniways_ebp_emoticons_item_locked_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:gravity="center_vertical|center_horizontal"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@color/aniways_Black"
-        android:textSize="30sp" />
+        android:layout_gravity="right"
+        android:src="@drawable/aniways_locked_icon" />
 
-</LinearLayout>
+</FrameLayout>

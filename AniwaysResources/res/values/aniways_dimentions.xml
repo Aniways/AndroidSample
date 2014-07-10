@@ -3,6 +3,5 @@
     <dimen name="aniways_keyboard_height">230dip</dimen>
     <dimen name="aniways_contextual_popup_arrow_width">15dp</dimen> 
     <dimen name="aniways_contextual_popup_arrow_height">15dp</dimen> 
-    <dimen name="aniways_contextual_popup_border_width">1dp</dimen>
-    <dimen name="aniways_contextual_popup_border_minus_width">-1dp</dimen>      
+    <dimen name="aniways_contextual_popup_border_width">1dp</dimen>     
 </resources>

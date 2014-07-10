@@ -8,11 +8,11 @@
 
     <ImageView
         android:id="@+id/aniways_ebp_emoticons_item_emoticon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="center|center_vertical"
         android:gravity="center"
-        android:scaleType="centerInside" />
+        android:scaleType="fitCenter" />
     
     <ImageView
             android:id="@+id/aniways_ebp_emoticons_item_locked_icon"
