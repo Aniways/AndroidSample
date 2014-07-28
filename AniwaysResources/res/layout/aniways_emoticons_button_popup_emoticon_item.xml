@@ -6,7 +6,7 @@
     android:background="@drawable/aniways_ebp_emoticon_indicator"
     android:gravity="center_horizontal|center_vertical" >
 
-    <ImageView
+    <com.aniways.volley.toolbox.NetworkImageView
         android:id="@+id/aniways_ebp_emoticons_item_emoticon"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -21,6 +21,7 @@
             android:layout_gravity="top|right"
             android:gravity="center"
             android:scaleType="centerInside"
+            android:visibility="gone"
             android:src="@drawable/aniways_locked_icon" />
 
 </FrameLayout>

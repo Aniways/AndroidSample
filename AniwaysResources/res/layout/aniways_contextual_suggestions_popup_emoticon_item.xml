@@ -9,17 +9,23 @@
     android:gravity="center_vertical|center_horizontal" >
 
     <!-- The width and height values are not really respected. The value is taken from the configured iconInSuggestionPopupSize -->
-    <ImageView
-        android:id="@+id/aniways_action_item_icon"
+    <RelativeLayout
+        android:id="@+id/relative_container"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:scaleType="fitCenter" />
+        android:layout_height="wrap_content">
+        <com.aniways.volley.toolbox.NetworkImageView
+            android:id="@+id/aniways_action_item_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside" />
+             </RelativeLayout>
 
     <ImageView
         android:id="@+id/aniways_ebp_emoticons_item_locked_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
+        android:visibility="gone"
         android:src="@drawable/aniways_locked_icon" />
 
 </FrameLayout>

@@ -39,11 +39,8 @@ public class MainActivity extends Activity {
 				textView.setText(message);
 				textEditor.setText("");	
 			}
-
 		});
-		
 	}
-
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
